@@ -1,6 +1,6 @@
 @font-face{
     font-family: Roboto;
-    src: url(fonts/Roboto/Roboto-Regular.ttf);
+    src: url(assets/Roboto/Roboto-Regular.ttf);
 }
 
 * {
@@ -24,7 +24,6 @@
 
 .logo{
     background-color: lightskyblue;
-    height: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +50,70 @@
 
 .taskbar{
     background-color: wheat;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.search-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-bar{
+    min-width: 70%;
+}
+
+.account-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30%;
+    gap: 3%;
+}
+
+.greeting-container {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    padding-bottom: 2%;
+}
+
+.greeting-img{
+    width: 64px;
+    height: 64px;
+}
+
+.small{
+    font-size: 14px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    padding: 0.4rem 1rem;
+    color: white;
+    background-color: #00bfff;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3aceff;
+    transform: scale(1.05);
 }
 
 .projects{
