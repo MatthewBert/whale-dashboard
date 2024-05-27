@@ -23,10 +23,13 @@
 }
 
 .logo{
-    background-color: lightskyblue;
+    color: white;
+    background-color: deepskyblue;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bolder;
+    font-size: 28px;
 }
 
 .sidebar{
@@ -49,7 +52,7 @@
 }
 
 .taskbar{
-    background-color: wheat;
+    background-color: white;
     display: grid;
     grid-template-columns: 65% 35%;
     grid-template-rows: 1fr 1fr;
@@ -62,10 +65,17 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: .5rem;
 }
 
 .search-bar{
+    background-color: aliceblue;
+    color: black;
     min-width: 70%;
+    padding: 1rem;
+    height: 24px;
+    border: none;
+    border-radius: 20px;
 }
 
 .account-container {
@@ -103,6 +113,7 @@
 
 button{
     padding: 0.4rem 1rem;
+    width: 5rem;
     color: white;
     background-color: #00bfff;
     border: none;
@@ -117,9 +128,47 @@ button:hover{
 }
 
 .projects{
-    background-color: goldenrod;
+    background-color: dbf1ff;
+    display: grid;
+    padding: 1rem;
+    grid-template-rows: 5% 95%;
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+.projects p{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 1rem;
+
+}
+
+.project-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 13rem;
+    padding: 1.75rem;
+    background-color: white;
+    border-left: 7px solid goldenrod;
+    border-radius: 20px;
+}
+
+.card-subsection{
+    color: grey;
+    font-size: 14px;
 }
 
 .announcements{
