@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.grid-main {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.logo{
+    background-color: lightskyblue;
+}
+
+.sidebar{
+    background-color: deepskyblue;
+}
+
+.taskbar{
+    background-color: wheat;
+}
+
+.projects{
+    background-color: goldenrod;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.announcements{
+    background-color: aquamarine;
+}
+
+.trending{
+    background-color:salmon;
+}
