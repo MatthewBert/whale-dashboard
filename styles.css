@@ -1,4 +1,13 @@
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
 * {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 18px;
     box-sizing: border-box;
 }
 
@@ -15,10 +24,29 @@
 
 .logo{
     background-color: lightskyblue;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebar{
     background-color: deepskyblue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.sidebar-tabs{
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    padding: 7.5%;
+}
+
+.sidebar-tabs li {
+    padding-bottom: 15%;
 }
 
 .taskbar{
