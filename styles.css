@@ -48,14 +48,18 @@
 }
 
 .sidebar-tabs li {
-    padding-bottom: 15%;
+    margin-bottom: 10%;
+    padding-left: 4%;
     display: flex;
     gap: .3rem;
     align-items: center;
+    border-radius: 20px;
+    height: 1.75rem;
 }
 
-.sidebar-icon{
-    
+.sidebar-tabs li:hover{
+        transform: scale(1.05);
+        background-color: #3aceff;
 }
 
 .taskbar{
@@ -66,6 +70,7 @@
     padding-top: 1rem;
     padding-left: 4%;
     padding-right: 4%;
+    border-bottom: 3px solid rgba(0,0,0, 0.15);
 }
 
 .search-container{
