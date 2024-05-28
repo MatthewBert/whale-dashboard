@@ -29,8 +29,16 @@
     justify-content: center;
     align-items: center;
     font-weight: bolder;
-    font-size: 28px;
-    min-width: 160px;
+    font-size: 26px;
+    min-width: 190px;
+    padding-right: .5rem;
+}
+
+.logo-icon{
+    width: 55px;
+    height: 55px;
+    padding-right: .5rem;
+    padding-left: .5rem;
 }
 
 .sidebar{
